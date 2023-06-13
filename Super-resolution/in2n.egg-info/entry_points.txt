@@ -1,0 +1,4 @@
+[nerfstudio.method_configs]
+in2n = in2n.in2n_config:in2n_method
+in2n_small = in2n.in2n_config:in2n_method_small
+in2n_tiny = in2n.in2n_config:in2n_method_tiny

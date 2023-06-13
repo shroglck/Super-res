@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+in2n/__init__.py
+in2n/in2n.py
+in2n/in2n_config.py
+in2n/in2n_datamanager.py
+in2n/in2n_pipeline.py
+in2n/in2n_trainer.py
+in2n/ip2p.py
+in2n.egg-info/PKG-INFO
+in2n.egg-info/SOURCES.txt
+in2n.egg-info/dependency_links.txt
+in2n.egg-info/entry_points.txt
+in2n.egg-info/requires.txt
+in2n.egg-info/top_level.txt
