@@ -244,7 +244,7 @@ class InstructPix2Pix(nn.Module):
             else:
                 latents = latents.float()
             
-            imgs = (self.vae.decode(latents, return_dict=False)[0]).to(dtype = torch.float32)
+            imgs = self.vae.decode(latents, return_dict=False)[0]
             print(imgs)
         imgs_to_latent = (imgs / 2 + 0.5).clamp(0, 1)
 
